@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  z-index: 20;
+  background-color: #9c9286;
+  padding: 20px;
+}
+header .boxes .logo img {
+  width: 130px;
+}
+header .boxes .enk li {
+  margin-right: 8px;
+}
+header .boxes .enk a {
+  text-decoration: none;
+  color: black;
+}
+header .boxes .moth {
+  padding-top: 10px;
+}
+header .boxes .moth ul .pro {
+  position: relative;
+}
+header .boxes .moth ul .pro:hover .drop {
+  opacity: 1;
+  visibility: visible;
+}
+header .boxes .moth ul .pro .drop {
+  position: absolute;
+  width: 100%;
+  top: 70px;
+  left: 13px;
+  padding: 8px 100px 8px 10px;
+  box-shadow: 0 0 20px 0 black;
+  border-radius: 15px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s ease-in-out;
+}
+header .boxes .moth ul .pro .drop ul {
+  border: none;
+}
+header .boxes .moth ul .pro .drop ul li a {
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header .boxes .moth ul .pro .drop ul li a:hover {
+  color: rgba(255, 68, 0, 0.712);
+}
+header .boxes .moth ul li {
+  padding-left: 20px;
+}
+header .boxes .moth ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  z-index: 20;
+  background-color: #FFF9F2;
+  width: 100%;
+  height: 100vh;
+  padding: 120px;
+}
+section img {
+  width: 100%;
+  height: 100%;
+}
+section .size h1 {
+  width: 100%;
+  font-size: 3.3rem;
+  font-weight: 700;
+  color: #343F52;
+}
+section .size a {
+  text-decoration: none;
+  color: white;
+  outline: none;
+  padding: 13px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 15px 0;
+  background-color: rgba(255, 166, 0, 0.548);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+section .size p {
+  width: 80%;
+  color: rgb(145, 144, 144);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#color {
+  z-index: 0;
+  background-color: rgba(254, 254, 254, 0.7607843137);
+  width: 100%;
+  height: 40vh;
+  margin-top: -330px;
+}
+#color .kaktus {
+  width: 80%;
+  margin: 120px auto 0 auto;
+  height: 30vh;
+}
+#color .kaktus .box {
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 0 20px 0;
+  border: none;
+  width: 23%;
+  height: 100%;
+}
+#color .kaktus .box a {
+  text-decoration: none;
+  color: orange;
+}
+#color .kaktus .box h1 {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px 0;
+}
+#color p {
+  width: 100%;
+}
+#color img {
+  width: 15%;
+  height: 60%;
+}
+
+.start {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+.start p {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(145, 144, 144);
+}
+.start h1 {
+  width: 80%;
+  margin: auto;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#globus {
+  -webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 85%);
+          clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 85%);
+  height: 80vh;
+  margin-top: 25rem;
+}
+#globus .boxes {
+  position: relative;
+}
+#globus .boxes input {
+  padding: 10px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#globus .boxes a {
+  position: absolute;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #FAB758;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#globus .boxes p {
+  padding: 20px 0;
+  color: rgba(128, 128, 128, 0.726);
+  font-weight: 610;
+  font-size: 18px;
+  width: 90%;
+}
+#globus .boxes h3 {
+  color: rgba(128, 128, 128, 0.63);
+  font-size: 19px;
+  font-weight: bold;
+}
+#globus .boxes h1 {
+  font-size: 35px;
+  font-weight: 700;
+  width: 75%;
+}
+
+#work {
+  background-color: white;
+}
+#work .box {
+  border: 2px solid pink;
+}
+#work .box .box1 {
+  border: 2px solid red;
+}
+#work .box .box2 {
+  margin-left: 70px;
+}
+#work .box .box3 {
+  margin-left: 20px;
+}
+
+footer {
+  z-index: 2;
+  margin-top: 800px;
+  -webkit-clip-path: polygon(0 0, 100% 16%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 16%, 100% 100%, 0% 100%);
+  height: 75vh;
+  background-color: #343F52;
+  padding: 4rem;
+}
+footer .top-footer {
+  padding: 50px 0;
+}
+footer .top-footer h2 {
+  width: 80%;
+  color: white;
+  font-size: 37px;
+  font-weight: 700;
+}
+footer .bottom-footer {
+  padding: 55px 0;
+  border-top: 1px solid white;
+}
+footer .bottom-footer .non h3 {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+footer .bottom-footer .non p {
+  width: 90%;
+  padding: 15px 0;
+}
+footer .bottom-footer .non .Join {
+  width: 100%;
+  position: relative;
+}
+footer .bottom-footer .non .Join input {
+  padding: 10px;
+  width: 75%;
+  outline: none;
+}
+footer .bottom-footer .non .Join a {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  background-color: orangered;
+  top: 0;
+  left: 69%;
+  padding: 12px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+footer .bottom-footer .qal h3 {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+footer .bottom-footer .qal a {
+  text-decoration: none;
+  color: rgb(145, 144, 144);
+  display: inline-block;
+  padding-bottom: 9px;
+  font-weight: 600;
+  font-size: 18px;
+}
+footer .bottom-footer .box h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+footer .bottom-footer .box a {
+  text-decoration: none;
+  color: rgb(145, 144, 144);
+}
+footer .bottom-footer .box a:hover {
+  color: rgba(255, 68, 0, 0.767);
+}
+footer .bottom-footer .box p {
+  color: rgb(145, 144, 144);
+}
+footer .bottom-footer img {
+  width: 135px;
+  padding-bottom: 10px;
+}
+footer .bottom-footer p {
+  width: 45%;
+  color: rgb(145, 144, 144);
+  font-weight: 600;
+}
+footer .bottom-footer span {
+  padding-left: 8px;
+  transform: translateY(0);
+}
+footer .bottom-footer span i {
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+  color: white;
+}
+footer .bottom-footer span i:hover {
+  transform: translateY(-10px);
+}/*# sourceMappingURL=style.css.map */

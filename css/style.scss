@@ -1,0 +1,383 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+} 
+header{
+    width: 100%; 
+    // height: 50vh; 
+    z-index: 20; 
+
+    background-color:#9c9286;  
+    padding: 20px;
+    .boxes{
+        .logo{
+            img{
+                width: 130px; 
+            }
+        }
+        .enk{ 
+            li{
+                margin-right: 8px;
+            }
+          a{
+            text-decoration: none; 
+            color: black;
+          }
+        }
+        .moth{ 
+            padding-top: 10px;
+            ul{  
+                // border: 2px solid red;
+                .pro{  
+                    &:hover{
+                        .drop{
+                            opacity: 1; 
+                            visibility: visible;
+                        }
+                    }
+                    // border: 2px solid blue;
+                    position: relative;      
+                    // padding: 0 25px;  
+                    .drop{  
+                        // margin-top: 45px;
+                        position: absolute; 
+                        width: 100%; 
+                        top: 70px; 
+                        left: 13px;
+                        // border: 1px solid blue;  
+                        padding: 8px 100px 8px 10px;
+                        // padding: 18px 80px; 
+                        box-shadow: 0 0 20px 0 black; 
+                        border-radius: 15px; 
+                        opacity: 0; 
+                        visibility: hidden;
+                        transition: 0.5s ease-in-out;
+                        ul{  
+                            border: none; 
+                            // flex: 1; 
+                            li{
+                                a{
+                                    color: black; 
+                                    font-weight: 600; 
+                                    font-size: 15px; 
+                                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    &:hover{
+                                        color: rgba(255, 68, 0, 0.712);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                li{ 
+                    padding-left: 20px;
+                    a{
+                        text-decoration: none; 
+                        color: black; 
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ==================================================================
+
+section{  
+    z-index: 20;
+    background-color: #FFF9F2;
+    width: 100%; 
+    height: 100vh; 
+    padding: 120px;
+    // background-color: red; 
+    img{
+        width: 100%; 
+        height: 100%; 
+
+    } 
+    .size{ 
+        
+        h1{
+            width: 100%; 
+            font-size: 3.3rem; 
+            font-weight: 700; 
+            color: #343F52;
+        }
+        a{
+            // background-color: red;
+           text-decoration: none; 
+           color: white; 
+        //    border: 2px solid black;  
+        outline: none;
+           padding: 13px 30px; 
+           border-radius: 30px;  
+           display: inline-block;
+           margin: 15px 0; 
+           background-color: rgba(255, 166, 0, 0.548);  
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+           font-size: 19px; 
+           font-weight: 500;
+        } 
+        p{
+            width: 80%; 
+            color: rgb(145, 144, 144); 
+            font-size: 20px; 
+            font-weight: 600;
+        }
+    }
+    
+}
+// ====================================================
+
+#color{  
+    z-index: 0;
+    background-color:#fefefec2;
+    width: 100%;
+    height: 40vh; 
+    //   border: 2px solid blue; 
+      margin-top: -330px;
+      .kaktus{ 
+        // border: 2px solid red; 
+        width: 80%;  
+        margin: 120px auto 0 auto;
+        // margin: 120px auto 0 auto; 
+        height: 30vh;
+        .box{    
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 0 20px 0; 
+            border: none;
+            width: 23%; 
+            height: 100%; 
+            // margin-right: 20px;
+            // border: 2px solid black;  
+                a{
+                    text-decoration: none; 
+                    color: orange;
+                }  
+                h1{
+                    width: 100%;  
+                    font-size: 20px; 
+                    padding: 10px 0;
+                    
+                }
+           
+            }
+            }
+            // h1{
+            //     width: 100%; 
+            //     font-size: 25px;
+
+            // }
+            p{
+                width: 100%; 
+            }
+            img{
+                width: 15%; 
+                height: 60%;
+            } 
+
+        } 
+
+      
+    .start{
+        text-align: center; 
+        width: 40%; 
+        margin: auto;  
+        // border: 2px solid red;
+        p{
+font-size: 16px; 
+font-weight: bold; 
+color: rgb(145, 144, 144); 
+        } 
+        h1{
+width: 80%;  
+margin: auto;
+font-size: 30px; 
+font-weight: bold;
+        }
+
+    }
+    
+    // ============================================================
+ 
+    #globus{ 
+        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 85%);
+        height: 80vh; 
+        margin-top: 25rem; 
+        .boxes{ 
+            position: relative;
+            input{
+                padding: 10px; 
+                border: none; 
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+            }
+            a{
+                position: absolute;
+                text-decoration: none; 
+                // border: 2px solid black; 
+                padding: 10px; 
+                background-color: #FAB758; 
+                border-top-right-radius: 12px; 
+                border-bottom-right-radius: 12px; 
+                color: white;  
+                font-weight: bold; 
+                font-size: 15px;
+            } 
+            p{
+                padding: 20px 0; 
+                color: rgba(128, 128, 128, 0.726); 
+                font-weight: 610; 
+                font-size: 18px; 
+                width: 90%;
+            } 
+            h3{
+                color: rgba(128, 128, 128, 0.63); 
+                font-size: 19px; 
+                font-weight: bold;
+            } 
+            h1{
+                font-size: 35px; 
+                font-weight: 700; 
+                width: 75%;
+            }
+        }
+    }
+    // ============================================================
+
+    #work{ 
+        background-color: white; 
+        .box{
+            border: 2px solid pink;
+             .box1{
+                 border: 2px solid red;
+             } 
+             .box2{
+                //  border: 2px solid black; 
+                 margin-left: 70px;
+             } 
+             .box3{
+                //  border: 2px solid blue; 
+                 margin-left: 20px;
+             }
+        }
+    }
+
+// =================================================================
+footer{ 
+    z-index: 2;
+    margin-top: 800px;
+    clip-path: polygon(0 0, 100% 16%, 100% 100%, 0% 100%);
+    height: 75vh; 
+    background-color: #343F52; 
+    padding: 4rem;
+    .top-footer{
+        padding: 50px 0; 
+        h2{ 
+            width: 80%;
+            color: white; 
+            font-size: 37px;  
+            font-weight: 700;
+        }
+    }
+    .bottom-footer{ 
+        padding: 55px 0; 
+        .non{ 
+            // border: 2px solid red; 
+            h3{
+                color: white; 
+                font-size: 22px;  
+            font-weight: 600; 
+        font-family: sans-serif;           
+    } 
+            p{
+                width: 90%; 
+                padding: 15px 0;
+            } 
+            .Join{  
+                width: 100%;
+                // border: 2px solid red;
+                position: relative;
+                input{ 
+                    padding: 10px; 
+                    width: 75%;
+                    outline: none;
+                } 
+                a{
+                    position: absolute;
+                    text-decoration: none; 
+                    color: white; 
+                    // border: 2px solid black; 
+                    background-color: orangered; 
+                    top: 0; 
+                    left: 69%; 
+                    padding: 12px; 
+                    border-top-right-radius: 10px; 
+                    border-bottom-right-radius: 10px;
+
+                }
+            }
+        }
+        .qal{ 
+            h3{
+                color: white; 
+                font-size: 22px; 
+                font-weight: 600; 
+                font-family: sans-serif;
+            }
+            a{
+                text-decoration: none; 
+                color: rgb(145, 144, 144); 
+                display: inline-block;
+                padding-bottom: 9px ;  
+                font-weight: 600; 
+                font-size: 18px;
+            }
+        }
+        .box{
+            h3{
+                color: white; 
+                font-size: 20px; 
+                font-weight: 600; 
+                font-family: sans-serif; 
+                
+            }
+            a{
+               text-decoration: none; 
+               color: rgb(145, 144, 144); 
+               &:hover{
+                color: rgba(255, 68, 0, 0.767); 
+               }
+            }
+            p{
+                color: rgb(145, 144, 144);
+            }
+        }
+        img{
+            width: 135px; 
+            // margin: 15px 0;  
+            padding-bottom: 10px;
+        }
+        border-top: 1px solid white;
+        p{
+            width: 45%; 
+            color:rgb(145, 144, 144); 
+            font-weight: 600;
+        } 
+        span{ 
+            padding-left: 8px;
+            transform: translateY(0);  
+            i{  
+                font-size: 20px;
+            transition: 0.5s ease-in-out;
+                color: white; 
+                &:hover{
+                    transform: translateY(-10px);
+                }
+            }
+        }
+    } 
+
+}
